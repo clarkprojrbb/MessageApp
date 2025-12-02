@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + "/public"));
 
 const {MongoClient, ServerApiVersion} = require('mongodb');
-const uri = "_________________________________________________________________";
+const uri = "mongodb+srv://clarkprojrbb_db_user:B229XRZQMlqvZOYM@messageapp.mu4lelj.mongodb.net/?appName=MessageApp";
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
